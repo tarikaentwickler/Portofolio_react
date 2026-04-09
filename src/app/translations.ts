@@ -13,7 +13,7 @@ export const translations = {
     },
     // Hero
     hero: {
-      name: 'Vaše Ime',
+      name: 'Tarik Abaspahic',
       title: 'Full Stack Developer',
       description: 'Kreiram moderne web aplikacije sa fokusom na korisničko iskustvo i čist kod. Specijalizovan za React, Node.js i cloud tehnologije.',
       viewProjects: 'Pogledaj projekte',
@@ -111,7 +111,7 @@ export const translations = {
     },
     // Hero
     hero: {
-      name: 'Your Name',
+      name: 'Tarik Abaspahic',
       title: 'Full Stack Developer',
       description: 'I create modern web applications with a focus on user experience and clean code. Specialized in React, Node.js, and cloud technologies.',
       viewProjects: 'View Projects',
@@ -209,7 +209,7 @@ export const translations = {
     },
     // Hero
     hero: {
-      name: 'Ihr Name',
+      name: 'Tarik Abaspahic',
       title: 'Full Stack Entwickler',
       description: 'Ich erstelle moderne Webanwendungen mit Fokus auf Benutzererfahrung und sauberen Code. Spezialisiert auf React, Node.js und Cloud-Technologien.',
       viewProjects: 'Projekte ansehen',
