@@ -1,4 +1,4 @@
-import { Code, Palette, Zap, Download } from 'lucide-react';
+import { Code, Target, Zap, Download } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 import { Button } from './ui/button';
 import { useLanguage } from '../context/LanguageContext';
@@ -16,16 +16,18 @@ export function About() {
       title: t.about.cleanCode,
       description: t.about.cleanCodeDesc,
     },
+     
     {
-      icon: <Palette size={32} />,
+      icon: <Zap size={32} />,
       title: t.about.uiFocus,
       description: t.about.uiFocusDesc,
     },
     {
-      icon: <Zap size={32} />,
+      icon: <Target size={32} />,
       title: t.about.performance,
       description: t.about.performanceDesc,
-    },
+    }
+   
   ];
 
   return (
