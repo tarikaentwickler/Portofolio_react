@@ -86,15 +86,11 @@ export function About() {
                 <p className={`mb-4 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
                   {t.about.cvDesc}
                 </p>
-                <Button
-                  className="w-full"
-                  onClick={() => {
-                    // Ovdje bi išla logika za download CV-a
-                    alert('CV download će biti dostupan uskoro!');
-                  }}
-                >
-                  <Download size={18} className="mr-2" />
-                  {t.about.downloadCV}
+                <Button asChild className="w-full">
+                  <a href="/cv.pdf" download="Tarik-Abaspahic-CV.pdf" className="w-full flex items-center justify-center">
+                    <Download size={18} className="mr-2" />
+                    {t.about.downloadCV}
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -112,16 +108,11 @@ export function About() {
                 <p className={`mb-4 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
                   {t.about.coverLetterDesc}
                 </p>
-                <Button
-                  variant="outline"
-                  className="w-full"
-                  onClick={() => {
-                    // Ovdje bi išla logika za download cover letter-a
-                    alert('Cover Letter download će biti dostupan uskoro!');
-                  }}
-                >
-                  <Download size={18} className="mr-2" />
-                  {t.about.downloadCoverLetter}
+                <Button asChild variant="outline" className="w-full">
+                  <a href="/cover-letter.pdf" download="Tarik-Abaspahic-Cover-Letter.pdf" className="w-full flex items-center justify-center">
+                    <Download size={18} className="mr-2" />
+                    {t.about.downloadCoverLetter}
+                  </a>
                 </Button>
               </CardContent>
             </Card>
