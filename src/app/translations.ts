@@ -22,9 +22,9 @@ export const translations = {
     // About
     about: {
       title: 'O meni',
-      paragraph1: 'Pozdrav! Ja sam strastveni developer sa više od 5 godina iskustva u izgradnji web aplikacija. Moja strast je transformisanje ideja u elegantna digitalna rešenja.',
-      paragraph2: 'Tokom svoje karijere, radio sam na različitim projektima - od startup aplikacija do enterprise rešenja, uvek sa fokusom na kvalitet, performanse i korisničko iskustvo.',
-      paragraph3: 'Kada ne kodiram, volim da učim nove tehnologije, doprinosim open-source projektima i delim znanje sa developer zajednicom.',
+      paragraph1: 'Ja sam motivisan i samouk budući full stack developer koji je već duže vrijeme u svijetu programiranja, a u posljednjih godinu dana potpuno sam posvećen učenju i razvoju svojih vještina. Kroz praktične projekte svakodnevno radim na usavršavanju i izgradnji znanja u IT industriji.',
+      paragraph2: 'Fokusiran sam na moderne web tehnologije kao što su JavaScript, React, Node.js i MongoDB, te me posebno zanima razvoj kompletnih aplikacija – od frontend dijela do backend logike i rada sa bazama podataka.',
+      paragraph3: 'Stalno učim, istražujem nove alate i unapređujem svoje znanje kroz online platforme i samostalne projekte. Moj cilj je da kroz Ausbildung kao Fachinformatiker steknem profesionalno iskustvo i izgradim stabilnu karijeru u Njemačkoj.Pored toga, supruga i dijete su moja najveća podrška i motivacija da svakodnevno napredujem i ostvarim svoje ciljeve.',
       cleanCode: 'Clean Code',
       cleanCodeDesc: 'Pišem čitljiv, održiv i skalabilan kod',
       uiFocus: 'UI/UX Fokus',
@@ -120,9 +120,9 @@ export const translations = {
     // About
     about: {
       title: 'About Me',
-      paragraph1: 'Hello! I\'m a passionate developer with over 5 years of experience building web applications. My passion is transforming ideas into elegant digital solutions.',
-      paragraph2: 'Throughout my career, I\'ve worked on various projects - from startup applications to enterprise solutions, always focusing on quality, performance, and user experience.',
-      paragraph3: 'When I\'m not coding, I enjoy learning new technologies, contributing to open-source projects, and sharing knowledge with the developer community.',
+      paragraph1: 'I am a motivated and self-taught aspiring full stack developer who has been involved in programming for some time, and in the past year I have become fully dedicated to improving my skills. Through practical projects, I continuously work on developing my knowledge and gaining experience in the IT industry.',
+      paragraph2: 'I focus on modern web technologies such as JavaScript, React, Node.js, and MongoDB, and I am especially interested in building complete applications – from frontend interfaces to backend logic and database management.',
+      paragraph3: 'I am constantly learning, exploring new tools, and improving my skills through online platforms and personal projects. My goal is to gain professional experience through an Ausbildung as a Fachinformatiker and build a stable career in Germany.In addition, my wife and child are my greatest support and motivation to keep improving and achieving my goals.',
       cleanCode: 'Clean Code',
       cleanCodeDesc: 'I write readable, maintainable, and scalable code',
       uiFocus: 'UI/UX Focus',
@@ -218,9 +218,9 @@ export const translations = {
     // About
     about: {
       title: 'Über mich',
-      paragraph1: 'Hallo! Ich bin ein leidenschaftlicher Entwickler mit über 5 Jahren Erfahrung in der Erstellung von Webanwendungen. Meine Leidenschaft ist es, Ideen in elegante digitale Lösungen zu verwandeln.',
-      paragraph2: 'Im Laufe meiner Karriere habe ich an verschiedenen Projekten gearbeitet - von Startup-Anwendungen bis hin zu Unternehmenslösungen, immer mit Fokus auf Qualität, Leistung und Benutzererfahrung.',
-      paragraph3: 'Wenn ich nicht programmiere, lerne ich gerne neue Technologien, trage zu Open-Source-Projekten bei und teile Wissen mit der Entwickler-Community.',
+      paragraph1: 'Ich bin ein motivierter und selbstständiger angehender Full-Stack-Developer, der sich schon länger mit Programmierung beschäftigt und sich im letzten Jahr vollständig darauf konzentriert hat, seine Fähigkeiten weiterzuentwickeln. Durch praktische Projekte arbeite ich kontinuierlich daran, mein Wissen zu erweitern und Erfahrung in der IT-Branche zu sammeln.',
+      paragraph2: 'Ich konzentriere mich auf moderne Webtechnologien wie JavaScript, React, Node.js und MongoDB und interessiere mich besonders für die Entwicklung kompletter Anwendungen – vom Frontend bis zur Backend-Logik und Datenbankverwaltung.',
+      paragraph3: 'Ich lerne ständig weiter, entdecke neue Tools und verbessere meine Fähigkeiten durch Online-Plattformen und eigene Projekte. Mein Ziel ist es, durch eine Ausbildung zum Fachinformatiker praktische Berufserfahrung zu sammeln und eine stabile Karriere in Deutschland aufzubauen.Außerdem sind meine Frau und mein Kind meine größte Unterstützung und Motivation, mich täglich weiterzuentwickeln und meine Ziele zu erreichen.',
       cleanCode: 'Sauberer Code',
       cleanCodeDesc: 'Ich schreibe lesbaren, wartbaren und skalierbaren Code',
       uiFocus: 'UI/UX Fokus',
