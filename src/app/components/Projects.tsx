@@ -15,7 +15,7 @@ export function Projects() {
     {
       title: t.projects.project1.title,
       description: t.projects.project1.description,
-      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80',
+      image: '/projects/project1.jpg',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
       github: 'https://github.com',
       demo: 'https://example.com',
@@ -23,7 +23,7 @@ export function Projects() {
     {
       title: t.projects.project2.title,
       description: t.projects.project2.description,
-      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80',
+      image: '/projects/project2.jpg',
       technologies: ['Next.js', 'TypeScript', 'MongoDB', 'Socket.io'],
       github: 'https://github.com',
       demo: 'https://example.com',
@@ -31,7 +31,7 @@ export function Projects() {
     {
       title: t.projects.project3.title,
       description: t.projects.project3.description,
-      image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80',
+      image: '/projects/project3.png',
       technologies: ['React', 'Tailwind CSS', 'OpenWeather API', 'Recharts'],
       github: 'https://github.com',
       demo: 'https://example.com',
@@ -39,7 +39,7 @@ export function Projects() {
     {
       title: t.projects.project4.title,
       description: t.projects.project4.description,
-      image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80',
+      image: '/projects/project4.jpg',
       technologies: ['React', 'Express', 'PostgreSQL', 'Chart.js'],
       github: 'https://github.com',
       demo: 'https://example.com',
@@ -47,7 +47,7 @@ export function Projects() {
     {
       title: t.projects.project5.title,
       description: t.projects.project5.description,
-      image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80',
+      image: '/projects/project5.jpg',
       technologies: ['Next.js', 'TypeScript', 'Supabase', 'Vercel'],
       github: 'https://github.com',
       demo: 'https://example.com',
@@ -55,7 +55,7 @@ export function Projects() {
     {
       title: t.projects.project6.title,
       description: t.projects.project6.description,
-      image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80',
+      image: '/projects/project6.jpg',
       technologies: ['React Native', 'React', 'Firebase', 'Redux'],
       github: 'https://github.com',
       demo: 'https://example.com',
