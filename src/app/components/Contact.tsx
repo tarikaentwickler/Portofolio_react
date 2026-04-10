@@ -30,14 +30,14 @@ export function Contact() {
     {
       icon: <Mail size={24} />,
       title: t.contact.email,
-      value: 'email@example.com',
-      link: 'mailto:email@example.com',
+      value: 'direkt@t-abaspahic.de',
+      link: 'direkt@t-abaspahic.de',
     },
     {
       icon: <Phone size={24} />,
       title: t.contact.phone,
-      value: '+381 60 123 4567',
-      link: 'tel:+381601234567',
+      value: '+49 172 57 66 538',
+      link: 'tel:+491725766538',
     },
     {
       icon: <MapPin size={24} />,

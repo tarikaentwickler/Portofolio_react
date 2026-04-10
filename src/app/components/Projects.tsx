@@ -15,6 +15,7 @@ export function Projects() {
     {
       title: t.projects.project1.title,
       description: t.projects.project1.description,
+      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
       github: 'https://github.com',
       demo: 'https://example.com',
@@ -22,6 +23,7 @@ export function Projects() {
     {
       title: t.projects.project2.title,
       description: t.projects.project2.description,
+      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80',
       technologies: ['Next.js', 'TypeScript', 'MongoDB', 'Socket.io'],
       github: 'https://github.com',
       demo: 'https://example.com',
@@ -29,6 +31,7 @@ export function Projects() {
     {
       title: t.projects.project3.title,
       description: t.projects.project3.description,
+      image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80',
       technologies: ['React', 'Tailwind CSS', 'OpenWeather API', 'Recharts'],
       github: 'https://github.com',
       demo: 'https://example.com',
@@ -36,6 +39,7 @@ export function Projects() {
     {
       title: t.projects.project4.title,
       description: t.projects.project4.description,
+      image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80',
       technologies: ['React', 'Express', 'PostgreSQL', 'Chart.js'],
       github: 'https://github.com',
       demo: 'https://example.com',
@@ -43,6 +47,7 @@ export function Projects() {
     {
       title: t.projects.project5.title,
       description: t.projects.project5.description,
+      image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80',
       technologies: ['Next.js', 'TypeScript', 'Supabase', 'Vercel'],
       github: 'https://github.com',
       demo: 'https://example.com',
@@ -50,6 +55,7 @@ export function Projects() {
     {
       title: t.projects.project6.title,
       description: t.projects.project6.description,
+      image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80',
       technologies: ['React Native', 'React', 'Firebase', 'Redux'],
       github: 'https://github.com',
       demo: 'https://example.com',
@@ -68,10 +74,17 @@ export function Projects() {
             {projects.map((project, index) => (
               <Card
                 key={index}
-                className={`flex flex-col hover:shadow-xl transition-all hover:scale-105 ${
+                className={`w-[90%] mx-auto flex flex-col overflow-hidden hover:shadow-xl transition-all hover:scale-105 ${
                   isDarkMode ? 'bg-gray-800/50 border-gray-700' : 'bg-white/80'
                 }`}
               >
+                <div className="h-36 w-full overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                </div>
                 <CardHeader>
                   <CardTitle>{project.title}</CardTitle>
                   <CardDescription>{project.description}</CardDescription>
