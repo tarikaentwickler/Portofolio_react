@@ -2,11 +2,57 @@ import { Badge } from './ui/badge';
 import { useLanguage } from '../context/LanguageContext';
 import { useDarkMode } from '../context/DarkModeContext';
 import { translations } from '../translations';
+import type { IconType } from 'react-icons';
+import { Cloud } from 'lucide-react';
+import {
+  SiReact,
+  SiTypescript,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiHtml5,
+  SiCss,
+  SiJavascript,
+  SiNodedotjs,
+  SiExpress,
+  SiPostgresql,
+  SiMongodb,
+  SiGraphql,
+  SiPostman,
+  SiGit,
+  SiDocker,
+  SiFigma,
+  SiJest,
+  SiCircleci,
+  SiTrello,
+} from 'react-icons/si';
 
 export function Skills() {
   const { language } = useLanguage();
   const { isDarkMode } = useDarkMode();
   const t = translations[language];
+
+  const iconMap: Record<string, any> = {
+    React: SiReact,
+    TypeScript: SiTypescript,
+    'Next.js': SiNextdotjs,
+    'Tailwind CSS': SiTailwindcss,
+    HTML5: SiHtml5,
+    CSS3: SiCss,
+    JavaScript: SiJavascript,
+    'Node.js': SiNodedotjs,
+    Express: SiExpress,
+    PostgreSQL: SiPostgresql,
+    MongoDB: SiMongodb,
+    GraphQL: SiGraphql,
+    'REST API': SiPostman,
+    Git: SiGit,
+    Docker: SiDocker,
+    AWS: Cloud,
+    Figma: SiFigma,
+    Jest: SiJest,
+    'CI/CD': SiCircleci,
+    Agile: SiTrello,
+  };
 
   const skillCategories = [
     {
@@ -38,19 +84,27 @@ export function Skills() {
                   {category.category}
                 </h3>
                 <div className="flex flex-wrap gap-3">
-                  {category.skills.map((skill, skillIndex) => (
-                    <Badge
-                      key={skillIndex}
-                      variant="secondary"
-                      className={`text-base py-2 px-4 ${
-                        isDarkMode
-                          ? 'bg-gray-700 text-gray-200 hover:bg-gray-600'
-                          : 'bg-gray-200 text-gray-800'
-                      }`}
-                    >
-                      {skill}
-                    </Badge>
-                  ))}
+                  {category.skills.map((skill, skillIndex) => {
+                    const Icon = iconMap[skill];
+                    return (
+                      <Badge
+                        key={skillIndex}
+                        variant="secondary"
+                        className={`text-base py-2 px-4 flex items-center gap-2 ${
+                          isDarkMode
+                            ? 'bg-gray-700 text-gray-200 hover:bg-gray-600'
+                            : 'bg-gray-200 text-gray-800'
+                        }`}
+                      >
+                        {Icon ? (
+                          <span className="inline-flex items-center">
+                            <Icon size={16} />
+                          </span>
+                        ) : null}
+                        <span>{skill}</span>
+                      </Badge>
+                    );
+                  })}
                 </div>
               </div>
             ))}
