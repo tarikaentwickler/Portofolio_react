@@ -3,6 +3,7 @@ import { Button } from './ui/button';
 import { useLanguage } from '../context/LanguageContext';
 import { useDarkMode } from '../context/DarkModeContext';
 import { translations } from '../translations';
+import meImg from './assets/me.jpeg';
 
 export function Hero() {
   const { language } = useLanguage();
@@ -30,7 +31,7 @@ export function Hero() {
               isDarkMode ? 'border-purple-500' : 'border-blue-500'
             } shadow-2xl`}>
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+               src={meImg}
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
