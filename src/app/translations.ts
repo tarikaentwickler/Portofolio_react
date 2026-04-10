@@ -14,7 +14,7 @@ export const translations = {
     // Hero
     hero: {
       name: 'Tarik Abaspahic',
-      title: 'Full Stack Developer',
+      title: 'Full Stack Developer Learning Every Day',
       description: 'Ja sam motivisan budući programer sa velikim interesom za IT sektor. Svoje vještine kontinuirano razvijam kroz praktičan rad, posebno u JavaScriptu, Reactu i backend razvoju. Odgovoran sam, uporan i želim steći profesionalno iskustvo kroz Ausbildung za Fachinformatiker.',
       viewProjects: 'Pogledaj projekte',
       contact: 'Kontakt',
@@ -112,7 +112,7 @@ export const translations = {
     // Hero
     hero: {
       name: 'Tarik Abaspahic',
-      title: 'Full Stack Developer',
+      title: 'Full Stack Developer Learning Every Day',
       description: 'I am a motivated aspiring programmer with a strong interest in the IT field. I continuously improve my skills through practical work, especially in JavaScript, React, and backend development. I am responsible, persistent, and eager to gain professional experience through an Ausbildung as a Fachinformatiker.',
       viewProjects: 'View Projects',
       contact: 'Contact',
@@ -210,7 +210,7 @@ export const translations = {
     // Hero
     hero: {
       name: 'Tarik Abaspahic',
-      title: 'Full Stack Entwickler',
+      title: 'Full Stack Developer Learning Every Day',
       description: 'Ich bin ein motivierter angehender Programmierer mit großem Interesse am IT-Bereich. Ich entwickle meine Fähigkeiten kontinuierlich durch praktische Arbeit, insbesondere in JavaScript, React und Backend-Entwicklung. Ich bin verantwortungsbewusst, zielstrebig und möchte durch eine Ausbildung zum Fachinformatiker praktische Erfahrung sammeln.',
       viewProjects: 'Projekte ansehen',
       contact: 'Kontakt',
