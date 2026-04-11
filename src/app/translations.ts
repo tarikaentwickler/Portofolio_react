@@ -59,7 +59,7 @@ export const translations = {
         description: 'Kolaborativna aplikacija za upravljanje projektima sa drag & drop interfejsom i real-time synchronizacijom.',
       },
       project3: {
-        title: 'Weather Dashboard',
+        title: 'BEMBE Play',
         description: 'Interaktivni dashboard za praćenje vremenskih uslova sa vizualizacijom podataka i prognoze.',
       },
       project4: {

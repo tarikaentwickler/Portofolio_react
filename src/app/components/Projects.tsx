@@ -32,7 +32,7 @@ export function Projects() {
       title: t.projects.project3.title,
       description: t.projects.project3.description,
       image: '/projects/project3.png',
-      technologies: ['React', 'Tailwind CSS', 'OpenWeather API', 'Recharts'],
+      technologies: ['HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com',
       demo: 'https://example.com',
     },
@@ -74,7 +74,7 @@ export function Projects() {
             {projects.map((project, index) => (
               <Card
                 key={index}
-                className={`w-[90%] mx-auto flex flex-col overflow-hidden hover:shadow-xl transition-all hover:scale-105 ${
+                className={`w-[100%] mx-auto flex flex-col overflow-hidden hover:shadow-xl transition-all hover:scale-105 ${
                   isDarkMode ? 'bg-gray-800/50 border-gray-700' : 'bg-white/80'
                 }`}
               >
