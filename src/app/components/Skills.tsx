@@ -3,7 +3,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { useDarkMode } from '../context/DarkModeContext';
 import { translations } from '../translations';
 import type { IconType } from 'react-icons';
-import { Cloud } from 'lucide-react';
+import { Cloud, PenTool, Image } from 'lucide-react';
 import {
   SiReact,
   SiTypescript,
@@ -52,6 +52,8 @@ export function Skills() {
     Jest: SiJest,
     'CI/CD': SiCircleci,
     Agile: SiTrello,
+    'Adobe Illustrator': PenTool,
+    'Adobe Photoshop': Image,
   };
 
   const skillCategories = [
