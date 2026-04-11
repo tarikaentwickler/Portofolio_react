@@ -65,8 +65,10 @@ export function Skills() {
     },
     {
       category: t.skills.tools,
-      skills: ['Git', 'Docker', 'AWS', 'Figma', 'Jest', 'CI/CD', 'Agile'],
+      skills: ['Git', 'Docker', 'AWS', 'Figma', 'Adobe Illustrator', 'Adobe Photoshop'],
     },
+    
+  
   ];
 
   return (
