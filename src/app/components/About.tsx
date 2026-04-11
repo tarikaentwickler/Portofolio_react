@@ -110,7 +110,7 @@ export function About() {
                 <p className={`mb-4 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
                   {t.about.coverLetterDesc}
                 </p>
-                <Button asChild variant="outline" className="w-full">
+                <Button asChild className="w-full">
                   <a href="/cover-letter.pdf" download="Tarik-Abaspahic-Cover-Letter.pdf" className="w-full flex items-center justify-center">
                     <Download size={18} className="mr-2" />
                     {t.about.downloadCoverLetter}
