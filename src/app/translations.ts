@@ -44,6 +44,7 @@ export const translations = {
       frontend: 'Frontend',
       backend: 'Backend',
       tools: 'Tools & Other',
+      systems: 'Operativni sistemi',
     },
     // Projects
     projects: {
@@ -142,6 +143,7 @@ export const translations = {
       frontend: 'Frontend',
       backend: 'Backend',
       tools: 'Tools & Other',
+      systems: 'Operating Systems',
     },
     // Projects
     projects: {
@@ -240,6 +242,7 @@ export const translations = {
       frontend: 'Frontend',
       backend: 'Backend',
       tools: 'Tools & Andere',
+      systems: 'Betriebssysteme',
     },
     // Projects
     projects: {
