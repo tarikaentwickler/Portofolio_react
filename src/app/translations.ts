@@ -157,7 +157,7 @@ export const translations = {
         description: 'Collaborative project management application with drag & drop interface and real-time synchronization.',
       },
       project3: {
-        title: 'Weather Dashboard',
+        title: 'BEMBE Play',
         description: 'Interactive dashboard for tracking weather conditions with data visualization and forecasts.',
       },
       project4: {
@@ -255,7 +255,7 @@ export const translations = {
         description: 'Kollaborative Projektverwaltungsanwendung mit Drag & Drop-Interface und Echtzeit-Synchronisation.',
       },
       project3: {
-        title: 'Wetter-Dashboard',
+        title: 'BEMBE Play',
         description: 'Interaktives Dashboard zur Verfolgung von Wetterbedingungen mit Datenvisualisierung und Prognosen.',
       },
       project4: {
