@@ -16,9 +16,8 @@ export function Projects() {
       title: t.projects.project1.title,
       description: t.projects.project1.description,
       image: '/projects/project1.jpg',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
+      technologies: ['HTML', 'CSS', 'TypeScript', 'React'],
+      github: 'https://github.com/tarikaentwickler/Portofolio_react.git',
     },
     {
       title: t.projects.project2.title,

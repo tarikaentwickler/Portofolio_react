@@ -25,6 +25,7 @@ export const translations = {
       paragraph1: 'Ja sam motivisan i samouk budući full stack developer koji je već duže vrijeme u svijetu programiranja, a u posljednjih godinu dana potpuno sam posvećen učenju i razvoju svojih vještina. Kroz praktične projekte svakodnevno radim na usavršavanju i izgradnji znanja u IT industriji.',
       paragraph2: 'Fokusiran sam na moderne web tehnologije kao što su JavaScript, React, Node.js i MongoDB, te me posebno zanima razvoj kompletnih aplikacija – od frontend dijela do backend logike i rada sa bazama podataka.',
       paragraph3: 'Stalno učim, istražujem nove alate i unapređujem svoje znanje kroz online platforme i samostalne projekte. Moj cilj je da kroz Ausbildung kao Fachinformatiker steknem profesionalno iskustvo i izgradim stabilnu karijeru u Njemačkoj.Pored toga, supruga i dijete su moja najveća podrška i motivacija da svakodnevno napredujem i ostvarim svoje ciljeve.',
+      siteSummary: 'Ovaj sajt je lični portfolio izgrađen pomoću Reacta, TypeScripta i Tailwind CSS-a. Prikazuje moje vještine, projekte i kontakt informacije. Vrlo je važna responzivnost, čist vizuelni dizajn i brza izvedba.',
       cleanCode: 'Web Development',
       cleanCodeDesc: 'Frontend i backend aplikacije',
       uiFocus: 'Modern Technologies',
@@ -52,8 +53,8 @@ export const translations = {
       code: 'Code',
       demo: 'Demo',
       project1: {
-        title: 'E-commerce Platforma',
-        description: 'Full-stack e-commerce rešenje sa admin panelom, platnim integracijama i real-time inventory sistemom.',
+        title: 'Portfolio Web-Site',
+        description: 'Ovaj sajt je lični portfolio izgrađen pomoću Reacta, TypeScripta i Tailwind CSS-a. Prikazuje moje vještine, projekte i kontakt informacije. Vrlo je važna responzivnost, čist vizuelni dizajn i brza izvedba.',
       },
       project2: {
         title: 'Task Management App',
@@ -124,6 +125,7 @@ export const translations = {
       paragraph1: 'I am a motivated and self-taught aspiring full stack developer who has been involved in programming for some time, and in the past year I have become fully dedicated to improving my skills. Through practical projects, I continuously work on developing my knowledge and gaining experience in the IT industry.',
       paragraph2: 'I focus on modern web technologies such as JavaScript, React, Node.js, and MongoDB, and I am especially interested in building complete applications – from frontend interfaces to backend logic and database management.',
       paragraph3: 'I am constantly learning, exploring new tools, and improving my skills through online platforms and personal projects. My goal is to gain professional experience through an Ausbildung as a Fachinformatiker and build a stable career in Germany.In addition, my wife and child are my greatest support and motivation to keep improving and achieving my goals.',
+      siteSummary: 'This website is a personal portfolio built with React, TypeScript, and Tailwind CSS. It showcases my skills, projects, and contact details. The most important aspects are responsive layout, clean design, and fast performance.',
       cleanCode: 'Clean Code',
       cleanCodeDesc: 'I write readable, maintainable, and scalable code',
       uiFocus: 'UI/UX Focus',
@@ -151,8 +153,8 @@ export const translations = {
       code: 'Code',
       demo: 'Demo',
       project1: {
-        title: 'E-commerce Platform',
-        description: 'Full-stack e-commerce solution with admin panel, payment integrations, and real-time inventory system.',
+        title: 'Portfolio Web-Site',
+        description: 'This website is a personal portfolio built with React, TypeScript, and Tailwind CSS. It showcases my skills, projects, and contact details. The most important aspects are responsive layout, clean design, and fast performance.',
       },
       project2: {
         title: 'Task Management App',
@@ -223,6 +225,7 @@ export const translations = {
       paragraph1: 'Ich bin ein motivierter und selbstständiger angehender Full-Stack-Developer, der sich schon länger mit Programmierung beschäftigt und sich im letzten Jahr vollständig darauf konzentriert hat, seine Fähigkeiten weiterzuentwickeln. Durch praktische Projekte arbeite ich kontinuierlich daran, mein Wissen zu erweitern und Erfahrung in der IT-Branche zu sammeln.',
       paragraph2: 'Ich konzentriere mich auf moderne Webtechnologien wie JavaScript, React, Node.js und MongoDB und interessiere mich besonders für die Entwicklung kompletter Anwendungen – vom Frontend bis zur Backend-Logik und Datenbankverwaltung.',
       paragraph3: 'Ich lerne ständig weiter, entdecke neue Tools und verbessere meine Fähigkeiten durch Online-Plattformen und eigene Projekte. Mein Ziel ist es, durch eine Ausbildung zum Fachinformatiker praktische Berufserfahrung zu sammeln und eine stabile Karriere in Deutschland aufzubauen.Außerdem sind meine Frau und mein Kind meine größte Unterstützung und Motivation, mich täglich weiterzuentwickeln und meine Ziele zu erreichen.',
+      siteSummary: 'Diese Website ist ein persönliches Portfolio, erstellt mit React, TypeScript und Tailwind CSS. Sie zeigt meine Fähigkeiten, Projekte und Kontaktinformationen. Wichtig sind dabei eine responsive Darstellung, klares Design und schnelle Performance.',
       cleanCode: 'Sauberer Code',
       cleanCodeDesc: 'Ich schreibe lesbaren, wartbaren und skalierbaren Code',
       uiFocus: 'UI/UX Fokus',
@@ -250,8 +253,8 @@ export const translations = {
       code: 'Code',
       demo: 'Demo',
       project1: {
-        title: 'E-Commerce-Plattform',
-        description: 'Full-Stack E-Commerce-Lösung mit Admin-Panel, Zahlungsintegrationen und Echtzeit-Inventarsystem.',
+        title: 'Portfolio Web-Site',
+        description: 'Diese Website ist ein persönliches Portfolio, erstellt mit React, TypeScript und Tailwind CSS. Sie zeigt meine Fähigkeiten, Projekte und Kontaktinformationen. Wichtig sind dabei eine responsive Darstellung, klares Design und schnelle Performance.',
       },
       project2: {
         title: 'Task Management App',
