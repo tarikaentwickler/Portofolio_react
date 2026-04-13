@@ -87,7 +87,7 @@ export function Contact() {
       icon: <Mail size={24} />,
       title: t.contact.email,
       value: 'direkt@t-abaspahic.de',
-      link: 'direkt@t-abaspahic.de',
+      link: 'mailto:direkt@t-abaspahic.de',
     },
     {
       icon: <Phone size={24} />,
