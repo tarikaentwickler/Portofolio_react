@@ -17,7 +17,7 @@ export function Footer() {
             {/* Social Links */}
             <div className="flex gap-6">
               <a
-                href="https://github.com"
+                href="https://github.com/tarikaentwickler"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`transition-colors ${
@@ -27,7 +27,7 @@ export function Footer() {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/tarik-abaspahic-8a6520352"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`transition-colors ${

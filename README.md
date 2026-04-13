@@ -261,8 +261,8 @@ This project includes components from:
 
 **Tarik Abaspahic**
 - Email: direkt@t-abaspahic.de
-- LinkedIn: www.linkedin.com/in/tarik-abaspahic-8a6520352
-- GitHub: [tarikaentwickler](https://github.com/tarikaentwickler)
+- LinkedIn: https://www.linkedin.com/in/tarik-abaspahic-8a6520352
+- GitHub: https://github.com/tarikaentwickler
 
 ---
 

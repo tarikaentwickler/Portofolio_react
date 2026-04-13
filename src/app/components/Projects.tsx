@@ -24,7 +24,7 @@ export function Projects() {
       description: t.projects.project2.description,
       image: '/projects/project2.jpg',
       technologies: ['Next.js', 'TypeScript', 'MongoDB', 'Socket.io'],
-      github: 'https://github.com',
+      github: 'https://github.com/tarikaentwickler',
       demo: 'https://example.com',
     },
     {
@@ -32,7 +32,7 @@ export function Projects() {
       description: t.projects.project3.description,
       image: '/projects/project3.png',
       technologies: ['HTML', 'CSS', 'JavaScript'],
-      github: 'https://github.com',
+      github: 'https://github.com/tarikaentwickler',
       demo: 'https://example.com',
     },
     {
@@ -40,7 +40,7 @@ export function Projects() {
       description: t.projects.project4.description,
       image: '/projects/project4.jpg',
       technologies: ['React', 'Express', 'PostgreSQL', 'Chart.js'],
-      github: 'https://github.com',
+      github: 'https://github.com/tarikaentwickler',
       demo: 'https://example.com',
     },
     {
@@ -48,7 +48,7 @@ export function Projects() {
       description: t.projects.project5.description,
       image: '/projects/project5.jpg',
       technologies: ['Next.js', 'TypeScript', 'Supabase', 'Vercel'],
-      github: 'https://github.com',
+      github: 'https://github.com/tarikaentwickler',
       demo: 'https://example.com',
     },
     {
@@ -56,7 +56,7 @@ export function Projects() {
       description: t.projects.project6.description,
       image: '/projects/project6.jpg',
       technologies: ['React Native', 'React', 'Firebase', 'Redux'],
-      github: 'https://github.com',
+      github: 'https://github.com/tarikaentwickler',
       demo: 'https://example.com',
     },
   ];

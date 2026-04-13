@@ -63,7 +63,7 @@ export function Hero() {
 
           <div className="flex gap-6 justify-center mb-16 md:mb-0">
             <a
-              href="https://github.com"
+              href="https://github.com/tarikaentwickler"
               target="_blank"
               rel="noopener noreferrer"
               className={`transition-colors ${
@@ -73,7 +73,7 @@ export function Hero() {
               <Github size={22} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/tarik-abaspahic-8a6520352"
               target="_blank"
               rel="noopener noreferrer"
               className={`transition-colors ${
