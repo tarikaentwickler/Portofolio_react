@@ -15,7 +15,7 @@ export function Projects() {
     {
       title: t.projects.project1.title,
       description: t.projects.project1.description,
-      image: '/projects/project1.jpg',
+      image: '/projects/project1.png',
       technologies: ['HTML', 'CSS', 'TypeScript', 'React'],
       github: 'https://github.com/tarikaentwickler/Portofolio_react.git',
     },
