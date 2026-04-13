@@ -83,7 +83,7 @@ export function Hero() {
               <Linkedin size={22} />
             </a>
             <a
-              href="mailto:email@example.com"
+              href="mailto:direk@t-abaspahic.de"
               className={`transition-colors ${
                 isDarkMode ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-black'
               }`}
