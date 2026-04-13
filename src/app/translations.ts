@@ -93,6 +93,10 @@ export const translations = {
       message: 'Poruka',
       messagePlaceholder: 'Vaša poruka...',
       send: 'Pošalji poruku',
+      sending: 'Šaljem poruku...',
+      errorAllFields: 'Molimo ispunite sva polja.',
+      errorInvalidEmail: 'Molimo unesite ispravan email.',
+      errorSend: 'Greška pri slanju. Probajte ponovo.',
       thankYou: 'Hvala na poruci! Odgovoriću uskoro.',
     },
     // Footer
@@ -193,6 +197,10 @@ export const translations = {
       message: 'Message',
       messagePlaceholder: 'Your message...',
       send: 'Send Message',
+      sending: 'Sending message...',
+      errorAllFields: 'Please fill in all fields.',
+      errorInvalidEmail: 'Please enter a valid email address.',
+      errorSend: 'Unable to send your message right now.',
       thankYou: 'Thank you for your message! I\'ll respond soon.',
     },
     // Footer
@@ -293,6 +301,10 @@ export const translations = {
       message: 'Nachricht',
       messagePlaceholder: 'Ihre Nachricht...',
       send: 'Nachricht senden',
+      sending: 'Nachricht wird gesendet...',
+      errorAllFields: 'Bitte füllen Sie alle Felder aus.',
+      errorInvalidEmail: 'Bitte geben Sie eine gültige E-Mail-Adresse ein.',
+      errorSend: 'Nachricht konnte nicht gesendet werden.',
       thankYou: 'Vielen Dank für Ihre Nachricht! Ich werde bald antworten.',
     },
     // Footer

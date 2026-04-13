@@ -3,27 +3,83 @@ import { Card, CardContent } from './ui/card';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { Button } from './ui/button';
-import { useState } from 'react';
+import { useState, type FormEvent } from 'react';
+import { send } from '@emailjs/browser';
 import { useLanguage } from '../context/LanguageContext';
 import { useDarkMode } from '../context/DarkModeContext';
 import { translations } from '../translations';
+
+type ContactFormData = {
+  name: string;
+  email: string;
+  message: string;
+};
 
 export function Contact() {
   const { language } = useLanguage();
   const { isDarkMode } = useDarkMode();
   const t = translations[language];
   
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<ContactFormData>({
     name: '',
     email: '',
     message: '',
   });
+  const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const contactEmail = 'direkt@t-abaspahic.de';
+  const emailjsServiceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+  const emailjsTemplateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+  const emailjsPublicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+  const isValidEmail = (email: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Ovde bi išla logika za slanje forme
-    alert(t.contact.thankYou);
-    setFormData({ name: '', email: '', message: '' });
+    setErrorMessage('');
+
+    if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
+      setErrorMessage(t.contact.errorAllFields);
+      setStatus('error');
+      return;
+    }
+
+    if (!isValidEmail(formData.email)) {
+      setErrorMessage(t.contact.errorInvalidEmail);
+      setStatus('error');
+      return;
+    }
+
+    setStatus('sending');
+
+    try {
+      if (emailjsServiceId && emailjsTemplateId && emailjsPublicKey) {
+        await send(
+          emailjsServiceId,
+          emailjsTemplateId,
+          {
+            from_name: formData.name,
+            reply_to: formData.email,
+            message: formData.message,
+          },
+          emailjsPublicKey
+        );
+      } else {
+        const mailto = `mailto:${contactEmail}?subject=${encodeURIComponent(
+          `Portfolio contact from ${formData.name}`
+        )}&body=${encodeURIComponent(
+          `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
+        )}`;
+        window.location.href = mailto;
+      }
+
+      setStatus('success');
+      setFormData({ name: '', email: '', message: '' });
+    } catch (error) {
+      setErrorMessage(t.contact.errorSend);
+      setStatus('error');
+    }
   };
 
   const contactInfo = [
@@ -162,10 +218,21 @@ export function Contact() {
                       required
                     />
                   </div>
-                  <Button type="submit" className="w-full">
+                  <Button type="submit" className="w-full" disabled={status === 'sending'}>
                     <Send size={16} className="mr-2" />
                     {t.contact.send}
                   </Button>
+                  <div className="mt-3 min-h-[1.5rem] text-sm">
+                    {status === 'sending' && (
+                      <p className="text-blue-600">{t.contact.sending}</p>
+                    )}
+                    {status === 'success' && (
+                      <p className="text-green-600">{t.contact.thankYou}</p>
+                    )}
+                    {status === 'error' && (
+                      <p className="text-red-500">{errorMessage}</p>
+                    )}
+                  </div>
                 </form>
               </CardContent>
             </Card>

@@ -110,17 +110,19 @@ export function Projects() {
                         {t.projects.code}
                       </a>
                     </Button>
-                    <Button size="sm" asChild className="flex-1">
-                      <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center justify-center gap-2"
-                      >
-                        <ExternalLink size={16} />
-                        {t.projects.demo}
-                      </a>
-                    </Button>
+                    {project.demo ? (
+                      <Button size="sm" asChild className="flex-1">
+                        <a
+                          href={project.demo}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-center gap-2"
+                        >
+                          <ExternalLink size={16} />
+                          {t.projects.demo}
+                        </a>
+                      </Button>
+                    ) : null}
                   </div>
                 </CardContent>
               </Card>
