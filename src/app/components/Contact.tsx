@@ -89,7 +89,7 @@ export function Contact() {
       value: 'direkt@t-abaspahic.de',
       link: 'mailto:direkt@t-abaspahic.de',
     },
-    {
+    { 
       icon: <Phone size={24} />,
       title: t.contact.phone,
       value: '+49 172 57 66 538',

@@ -57,24 +57,24 @@ export const translations = {
         description: 'Ovaj sajt je lični portfolio izgrađen pomoću Reacta, TypeScripta i Tailwind CSS-a. Prikazuje moje vještine, projekte i kontakt informacije. Vrlo je važna responzivnost, čist vizuelni dizajn i brza izvedba.',
       },
       project2: {
-        title: 'Task Management App',
-        description: 'Kolaborativna aplikacija za upravljanje projektima sa drag & drop interfejsom i real-time synchronizacijom.',
+        title: 'Coming Soon',
+        description: 'Coming Soon',
       },
       project3: {
         title: 'BEMBE Play',
-        description: 'Interaktivni dashboard za praćenje vremenskih uslova sa vizualizacijom podataka i prognoze.',
+        description: 'Coming Soon',
       },
       project4: {
-        title: 'Social Media Analytics',
-        description: 'Analytics platforma za praćenje performansi na društvenim mrežama sa detaljnim izveštajima.',
+        title: 'Coming Soon',
+        description: 'Coming Soon',
       },
       project5: {
-        title: 'Portfolio Generator',
-        description: 'SaaS alat koji omogućava korisnicima da kreiraju profesionalne portfolio sajtove bez kodiranja.',
+        title: 'Coming Soon',
+        description: 'Coming Soon',
       },
       project6: {
-        title: 'Fitness Tracker',
-        description: 'Mobilna i web aplikacija za praćenje treninga, ishrane i fitnes ciljeva.',
+        title: 'Coming Soon',
+        description: 'Coming Soon',
       },
     },
     // Contact
@@ -161,24 +161,24 @@ export const translations = {
         description: 'This website is a personal portfolio built with React, TypeScript, and Tailwind CSS. It showcases my skills, projects, and contact details. The most important aspects are responsive layout, clean design, and fast performance.',
       },
       project2: {
-        title: 'Task Management App',
-        description: 'Collaborative project management application with drag & drop interface and real-time synchronization.',
+        title: 'Coming Soon',
+        description: 'Coming Soon',
       },
       project3: {
         title: 'BEMBE Play',
-        description: 'Interactive dashboard for tracking weather conditions with data visualization and forecasts.',
+        description: 'Coming Soon',
       },
       project4: {
-        title: 'Social Media Analytics',
-        description: 'Analytics platform for tracking social media performance with detailed reports.',
+        title: 'Coming Soon',
+        description: 'Coming Soon',
       },
       project5: {
-        title: 'Portfolio Generator',
-        description: 'SaaS tool that enables users to create professional portfolio websites without coding.',
+        title: 'Coming Soon',
+        description: 'Coming Soon',
       },
       project6: {
-        title: 'Fitness Tracker',
-        description: 'Mobile and web application for tracking workouts, nutrition, and fitness goals.',
+        title: 'Coming Soon',
+        description: 'Coming Soon',
       },
     },
     // Contact
@@ -265,24 +265,24 @@ export const translations = {
         description: 'Diese Website ist ein persönliches Portfolio, erstellt mit React, TypeScript und Tailwind CSS. Sie zeigt meine Fähigkeiten, Projekte und Kontaktinformationen. Wichtig sind dabei eine responsive Darstellung, klares Design und schnelle Performance.',
       },
       project2: {
-        title: 'Task Management App',
-        description: 'Kollaborative Projektverwaltungsanwendung mit Drag & Drop-Interface und Echtzeit-Synchronisation.',
+        title: 'Coming Soon',
+        description: 'Coming Soon',
       },
       project3: {
         title: 'BEMBE Play',
-        description: 'Interaktives Dashboard zur Verfolgung von Wetterbedingungen mit Datenvisualisierung und Prognosen.',
+        description: 'Coming Soon',
       },
       project4: {
-        title: 'Social Media Analytics',
-        description: 'Analytics-Plattform zur Verfolgung der Social-Media-Performance mit detaillierten Berichten.',
+        title: 'Coming Soon',
+        description: 'Coming Soon',
       },
       project5: {
-        title: 'Portfolio Generator',
-        description: 'SaaS-Tool, das es Benutzern ermöglicht, professionelle Portfolio-Websites ohne Programmierung zu erstellen.',
+        title: 'Coming Soon',
+        description: 'Coming Soon',
       },
       project6: {
-        title: 'Fitness-Tracker',
-        description: 'Mobile und Web-Anwendung zur Verfolgung von Workouts, Ernährung und Fitnesszielen.',
+        title: 'Coming Soon',
+        description: 'Coming Soon',
       },
     },
     // Contact
