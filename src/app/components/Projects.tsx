@@ -111,6 +111,7 @@ export function Projects() {
                         {t.projects.code}
                       </a>
                     </Button>
+                    ) : null,
                     {project.demo ? (
                       <Button size="sm" asChild className="flex-1">
                         <a
