@@ -38,7 +38,7 @@ export function Projects() {
       title: t.projects.project4.title,
       description: t.projects.project4.description,
       image: '/projects/project4.jpg',
-      technologies: ['React', 'Express', 'PostgreSQL', 'Chart.js'],
+      technologies: ['React', 'JavaScript(ES6+)', 'HTML5', 'CSS3/Tailwind CSS', 'Node.js', 'Git & GitHub'],
       github: 'https://github.com/tarikaentwickler',
       demo: 'https://example.com',
     },

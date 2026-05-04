@@ -65,8 +65,8 @@ export const translations = {
         description: 'BEMBE Play je jednostavna web-bazirana igra memorije razvijena s ciljem poboljšanja koncentracije i pamćenja kroz interaktivno korisničko iskustvo. Projekt je inicijalno nastao kao osobna inicijativa, inspiriran željom da napravim edukativnu i zabavnu igru za svoje dijete.',
       },
       project4: {
-        title: 'Coming Soon',
-        description: 'Coming Soon',
+        title: 'Life Project – Continuous Growth',
+        description: 'Ovaj projekat predstavlja moj svakodnevni razvoj kao budućeg software developera. Svaki dan posvećujem učenju programiranja, izgradnji praktičnih projekata i unapređenju svojih tehničkih vještina. Paralelno sa programiranjem, aktivno učim njemački jezik kako bih se što bolje pripremio za Ausbildung u Njemačkoj. Moj fokus je konstantan napredak u oblastima web developmenta, logičkog razmišljanja i profesionalnog rada u IT industriji.',
       },
       project5: {
         title: 'Coming Soon',
@@ -169,8 +169,8 @@ export const translations = {
         description: 'BEMBE Play is a simple web-based memory game developed with the aim of improving concentration and memory through an interactive user experience. The project was initially created as a personal initiative, inspired by the desire to make an educational and fun game for my child.',
       },
       project4: {
-        title: 'Coming Soon',
-        description: 'Coming Soon',
+        title: 'Life Project – Continuous Growth',
+        description: 'This project represents my daily development as a future software developer. Every day I dedicate myself to learning programming, building practical projects, and improving my technical skills. Alongside programming, I am actively learning the German language to better prepare myself for Ausbildung in Germany. My focus is on constant progress in web development, logical thinking, and professional work in the IT industry.',
       },
       project5: {
         title: 'Coming Soon',
@@ -273,8 +273,8 @@ export const translations = {
         description: 'BEMBE Play ist ein einfaches webbasiertes Memory-Spiel, das mit dem Ziel entwickelt wurde, Konzentration und Gedächtnis durch ein interaktives Benutzererlebnis zu verbessern. Das Projekt wurde ursprünglich als persönliche Initiative erstellt, inspiriert von dem Wunsch, ein lehrreiches und unterhaltsames Spiel für mein Kind zu entwickeln.',
       },
       project4: {
-        title: 'Coming Soon',
-        description: 'Coming Soon',
+        title: 'Life Project – Kontinuierliches Wachstum',
+        description: 'Dieses Projekt repräsentiert meine tägliche Entwicklung als zukünftiger Softwareentwickler. Jeden Tag widme ich mich dem Erlernen von Programmierung, dem Aufbau praktischer Projekte und der Verbesserung meiner technischen Fähigkeiten. Parallel zur Programmierung lerne ich aktiv die deutsche Sprache, um mich besser auf die Ausbildung in Deutschland vorzubereiten. Mein Fokus liegt auf konstantem Fortschritt im Webentwicklung, logischem Denken und professioneller Arbeit in der IT-Branche.',
       },
       project5: {
         title: 'Coming Soon',
