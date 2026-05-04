@@ -24,8 +24,7 @@ export function Projects() {
       description: t.projects.project2.description,
       image: '/projects/project2.jpg',
       technologies: ['Hobby', ],
-      github: 'https://github.com/tarikaentwickler',
-      demo: 'https://example.com',
+      
     },
     {
       title: t.projects.project3.title,
