@@ -57,8 +57,8 @@ export const translations = {
         description: 'Ovaj sajt je lični portfolio izgrađen pomoću Reacta, TypeScripta i Tailwind CSS-a. Prikazuje moje vještine, projekte i kontakt informacije. Vrlo je važna responzivnost, čist vizuelni dizajn i brza izvedba.',
       },
       project2: {
-        title: 'Coming Soon',
-        description: 'Coming Soon',
+        title: 'Popravka uređaja',
+        description: 'Popravka računara, telefona i tableta je moj hobi kroz koji razvijam praktične tehničke vještine. Često kupujem pokvarene uređaje, popravljam ih i vraćam u život — ponekad ih prodam, ponekad poklonim.',
       },
       project3: {
         title: 'BEMBE Play',
@@ -161,8 +161,8 @@ export const translations = {
         description: 'This website is a personal portfolio built with React, TypeScript, and Tailwind CSS. It showcases my skills, projects, and contact details. The most important aspects are responsive layout, clean design, and fast performance.',
       },
       project2: {
-        title: 'Coming Soon',
-        description: 'Coming Soon',
+        title: 'Device Repair',
+        description: 'Repairing computers, phones, and tablets is my hobby where I develop practical technical skills. I often buy broken devices, fix them, and bring them back to life — sometimes I sell them, sometimes I give them away.',
       },
       project3: {
         title: 'BEMBE Play',
@@ -265,8 +265,8 @@ export const translations = {
         description: 'Diese Website ist ein persönliches Portfolio, erstellt mit React, TypeScript und Tailwind CSS. Sie zeigt meine Fähigkeiten, Projekte und Kontaktinformationen. Wichtig sind dabei eine responsive Darstellung, klares Design und schnelle Performance.',
       },
       project2: {
-        title: 'Coming Soon',
-        description: 'Coming Soon',
+        title: 'Geräte-Reparatur',
+        description: 'Die Reparatur von Computern, Smartphones und Tablets ist mein Hobby, durch das ich meine praktischen technischen Fähigkeiten weiterentwickle. Oft kaufe ich defekte Geräte, repariere sie und bringe sie wieder zum Laufen — manchmal verkaufe ich sie, manchmal verschenke ich sie.',
       },
       project3: {
         title: 'BEMBE Play',

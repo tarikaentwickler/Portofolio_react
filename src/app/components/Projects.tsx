@@ -43,6 +43,7 @@ export function Projects() {
       github: 'https://github.com/tarikaentwickler',
       demo: 'https://example.com',
     },
+     /* " Placeholder projects for future additions"
     {
       title: t.projects.project5.title,
       description: t.projects.project5.description,
@@ -59,6 +60,7 @@ export function Projects() {
       github: 'https://github.com/tarikaentwickler',
       demo: 'https://example.com',
     },
+    "// End of placeholder projects" */
   ];
 
   return (
