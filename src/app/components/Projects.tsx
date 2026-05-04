@@ -23,7 +23,7 @@ export function Projects() {
       title: t.projects.project2.title,
       description: t.projects.project2.description,
       image: '/projects/project2.jpg',
-      technologies: ['Next.js', 'TypeScript', 'MongoDB', 'Socket.io'],
+      technologies: ['Hobby', ],
       github: 'https://github.com/tarikaentwickler',
       demo: 'https://example.com',
     },
