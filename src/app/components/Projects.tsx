@@ -100,6 +100,7 @@ export function Projects() {
                     </div>
                   </div>
                   <div className="flex gap-2">
+                    {project.github ? (
                     <Button variant="outline" size="sm" asChild className="flex-1">
                       <a
                         href={project.github}
@@ -111,7 +112,7 @@ export function Projects() {
                         {t.projects.code}
                       </a>
                     </Button>
-                    ) : null,
+                    ) : null}
                     {project.demo ? (
                       <Button size="sm" asChild className="flex-1">
                         <a
