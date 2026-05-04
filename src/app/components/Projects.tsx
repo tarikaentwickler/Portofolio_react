@@ -31,7 +31,7 @@ export function Projects() {
       description: t.projects.project3.description,
       image: '/projects/project3.png',
       technologies: ['HTML', 'CSS', 'JavaScript'],
-      github: 'https://github.com/tarikaentwickler',
+      github: 'https://github.com/tarikaentwickler/Portofolio_react/blob/main/public/Demo/bembe.html',
       demo: 'public/Demo/bembe.html',
     },
     {
