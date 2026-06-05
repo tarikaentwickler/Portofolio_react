@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+Allow: /projects
+Allow: /skills
+Allow: /about
+Allow: /contact
+
+Disallow: /admin
+Disallow: /*.json$
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Sitemap
+Sitemap: https://t-abaspahic.de/sitemap.xml
+
+# Google-specific rules
+User-agent: Googlebot
+Allow: /
+
+# Bing-specific rules
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay for other bots
+User-agent: *
+Crawl-delay: 1
