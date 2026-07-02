@@ -92,8 +92,8 @@ export function Contact() {
     { 
       icon: <Phone size={24} />,
       title: t.contact.phone,
-      value: '+49 172 57 66 538',
-      link: 'tel:+491725766538',
+      value: '+49 172 44 57 146',
+      link: 'tel:+491724457146',
     },
     {
       icon: <MapPin size={24} />,
