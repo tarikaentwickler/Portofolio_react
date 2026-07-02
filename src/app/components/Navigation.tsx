@@ -79,10 +79,9 @@ export function Navigation() {
         <div className="flex items-center justify-between">
           <button
             onClick={() => scrollToSection('hero')}
-            className={`text-xl font-semibold italic tracking-wide transition-colors ${
+            className={`text-xl font-semibold transition-colors ${
               isDarkMode ? 'text-white' : 'text-gray-900'
             }`}
-            style={{ fontFamily: 'cursive, "Brush Script MT", "Lucida Handwriting", "Segoe Script", serif' }}
           >
             {t.nav.portfolio}
           </button>

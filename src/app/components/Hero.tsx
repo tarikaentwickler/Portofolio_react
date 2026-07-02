@@ -22,10 +22,9 @@ export function Hero() {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-3xl mx-auto">
           <h1
-            className={`text-4xl md:text-5xl mb-8 italic font-semibold tracking-wide ${
+            className={`text-4xl md:text-5xl mb-8 font-semibold ${
               isDarkMode ? 'text-white' : 'text-gray-900'
             }`}
-            style={{ fontFamily: 'cursive, "Brush Script MT", "Lucida Handwriting", "Segoe Script", serif' }}
           >
             {t.hero.name}
           </h1>
