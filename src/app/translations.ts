@@ -9,7 +9,7 @@ export const translations = {
       skills: 'Vještine',
       projects: 'Projekti',
       contact: 'Kontakt',
-      portfolio: 'Portfolio',
+      portfolio: 'Tarik Abaspahic',
     },
     // Hero
     hero: {
@@ -113,7 +113,7 @@ export const translations = {
       skills: 'Skills',
       projects: 'Projects',
       contact: 'Contact',
-      portfolio: 'Portfolio',
+      portfolio: 'Tarik Abaspahic',
     },
     // Hero
     hero: {
@@ -217,7 +217,7 @@ export const translations = {
       skills: 'Fähigkeiten',
       projects: 'Projekte',
       contact: 'Kontakt',
-      portfolio: 'Portfolio',
+      portfolio: 'Tarik Abaspahic',
     },
     // Hero
     hero: {
