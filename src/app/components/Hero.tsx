@@ -21,12 +21,7 @@ export function Hero() {
     <section id="hero" className="min-h-screen flex items-center justify-center relative pt-20 md:pt-0">
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-3xl mx-auto">
-          <h1
-            className={`text-5xl md:text-7xl mb-8 italic font-semibold tracking-wide ${
-              isDarkMode ? 'text-white' : 'text-gray-900'
-            }`}
-            style={{ fontFamily: 'cursive, "Brush Script MT", "Lucida Handwriting", "Segoe Script", serif' }}
-          >
+          <h1 className={`text-5xl md:text-7xl mb-8 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
             {t.hero.name}
           </h1>
 
