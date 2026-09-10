@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
@@ -66,6 +67,7 @@ export default function App() {
           <Projects />
           <Contact />
           <Footer />
+          <Analytics />
         </div>
       </LanguageProvider>
     </DarkModeProvider>
