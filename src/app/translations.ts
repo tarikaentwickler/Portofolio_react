@@ -15,7 +15,7 @@ export const translations = {
     hero: {
       name: 'Tarik Abaspahic',
       title: 'Spajam sisteme. Gradim pouzdanu IT budućnost.',
-      description: 'Ja sam motivisan budući programer sa velikim interesom za IT sektor. Svoje vještine kontinuirano razvijam kroz praktičan rad, posebno u JavaScriptu, Reactu i backend razvoju. Odgovoran sam, uporan i želim steći profesionalno iskustvo kroz Ausbildung za Fachinformatiker.',
+      description: 'Najviše me motivira trenutak kada različiti sistemi počnu raditi kao jedna cjelina. Kroz praktičan rad razvijam znanje iz mreža, servera, operativnih sistema i IT infrastrukture, jer želim razumjeti kako tehnologija povezuje ljude, podatke i svakodnevni rad. Moj cilj je kroz Ausbildung za Fachinformatiker für Systemintegration izgraditi pouzdanu i sigurnu digitalnu budućnost.',
       viewProjects: 'Pogledaj projekte',
       contact: 'Kontakt',
     },
@@ -119,7 +119,7 @@ export const translations = {
     hero: {
       name: 'Tarik Abaspahic',
       title: 'Connecting Systems. Building Reliable IT.',
-      description: 'I am a motivated aspiring programmer with a strong interest in the IT field. I continuously improve my skills through practical work, especially in JavaScript, React, and backend development. I am responsible, persistent, and eager to gain professional experience through an Ausbildung as a Fachinformatiker.',
+      description: 'I am most motivated by the moment when different systems start working as one. Through hands-on practice, I am developing my skills in networks, servers, operating systems, and IT infrastructure because I want to understand how technology connects people, data, and everyday work. My goal is to build a reliable and secure digital future through an Ausbildung as a Fachinformatiker für Systemintegration.',
       viewProjects: 'View Projects',
       contact: 'Contact',
     },
@@ -223,7 +223,7 @@ export const translations = {
     hero: {
       name: 'Tarik Abaspahic',
       title: 'Systeme verbinden. Zuverlässige IT gestalten.',
-      description: 'Ich bin ein motivierter angehender Programmierer mit großem Interesse am IT-Bereich. Ich entwickle meine Fähigkeiten kontinuierlich durch praktische Arbeit, insbesondere in JavaScript, React und Backend-Entwicklung. Ich bin verantwortungsbewusst, zielstrebig und möchte durch eine Ausbildung zum Fachinformatiker praktische Erfahrung sammeln.',
+      description: 'Mich motiviert besonders der Moment, in dem verschiedene Systeme wie eine Einheit zusammenarbeiten. Durch praktische Arbeit entwickle ich meine Kenntnisse in Netzwerken, Servern, Betriebssystemen und IT-Infrastruktur weiter, weil ich verstehen möchte, wie Technologie Menschen, Daten und den Arbeitsalltag verbindet. Mein Ziel ist es, durch eine Ausbildung zum Fachinformatiker für Systemintegration eine zuverlässige und sichere digitale Zukunft mitzugestalten.',
       viewProjects: 'Projekte ansehen',
       contact: 'Kontakt',
     },
